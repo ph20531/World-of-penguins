@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4461125951976166032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4461125951976166031}
+  - component: {fileID: 4461125951976166030}
+  m_Layer: 0
+  m_Name: sound_manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4461125951976166031
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4461125951976166032}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4461125951976166030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4461125951976166032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0dd7e333b9834e449b98af5bd2acb5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  masterVolume: 0.5
+  backgroundMusicClips:
+  - {fileID: 8300000, guid: c20ca3f61ce344a42aa1db9118be6cf9, type: 3}
+  - {fileID: 8300000, guid: 8205f143deff02b4d8544b15b3d97efa, type: 3}
+  - {fileID: 8300000, guid: 0d29fc063b999254982e2aa90892c6f8, type: 3}
+  - {fileID: 8300000, guid: da238a3defc97be4482d48022c8dde79, type: 3}
+  backgroundMusicVolume: 1
+  EnvironmentalSoundClips:
+  - {fileID: 8300000, guid: 6ea6f3d8586c9f1498e9a6158b75a4c3, type: 3}
+  - {fileID: 8300000, guid: 45099c1aa08fec44e9547b7a8214feb4, type: 3}
+  environmentalSoundVolume: 0.25
+  soundEffectClips:
+  - {fileID: 8300000, guid: ca63c0808e426a940adaced2e71d5750, type: 3}
+  - {fileID: 8300000, guid: f597399155d0dc64587d00a1ab2cd397, type: 3}
+  - {fileID: 8300000, guid: 42a48913511b7304fb3e2e87ed99882b, type: 3}
+  - {fileID: 8300000, guid: cbcd28c7878942444b4378e7898935b6, type: 3}
+  - {fileID: 8300000, guid: 6549f67214267d8478b188fbef9b17a7, type: 3}
+  - {fileID: 8300000, guid: e2b6c8c46b3b7184f8fa653fa9aeb327, type: 3}
+  - {fileID: 8300000, guid: a7e45cb39f801224dbf2cc335ef92b4f, type: 3}
+  - {fileID: 8300000, guid: 772facc7830594747998eee250fd3587, type: 3}
+  - {fileID: 8300000, guid: cb4fd1b41cb16ff4da80c46df9b5894b, type: 3}
+  - {fileID: 8300000, guid: 25abdec3287ff1c43b49698e4236d578, type: 3}
+  - {fileID: 8300000, guid: 9c299491ae8968e4abe6fd8f4d87e0a3, type: 3}
+  - {fileID: 8300000, guid: 8ce5fdc162eace24998a221f6b289a15, type: 3}
+  - {fileID: 8300000, guid: 42b738747d17ac94bade5a9a8dc0dae1, type: 3}
+  soundEffectAdjustNames:
+  - penguin_explorer
+  - penguin_fisherman
+  soundEffectVolume: 0.375
